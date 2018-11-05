@@ -17,6 +17,8 @@ h1{
   font-weight: lighter;
   font-size: 3em;
   text-align: center;
+  letter-spacing: 0.3em;
+  /* word-spacing: 0.6em; */
 }
 
 .button {
