@@ -1,0 +1,57 @@
+body{
+  background-color: black;
+  font-family: 'Creepster', cursive;
+}
+
+img{
+  width: 100%;
+}
+
+#buttons{
+  display: block;
+  right: 0;
+}
+
+h1{
+  color: white;
+  font-weight: lighter;
+  font-size: 3em;
+  text-align: center;
+}
+
+.button {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Creepster', cursive;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.left {
+        /* -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1); */
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+.right {
+        /* -moz-transform: scaleX(1);
+        -o-transform: scaleX(1);
+        -webkit-transform: scaleX(1); */
+        transform: scaleX(1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+#crow {
+  width: 10%;
+  height: 10%;
+  transition: transform .1s
+}
